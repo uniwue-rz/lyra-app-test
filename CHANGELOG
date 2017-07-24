@@ -1,5 +1,7 @@
 # ChangeLog
 
+# [0.0.2] 2017-07-23
+- Make the changes to use the logger better
 
-# [0.0.1] 23-07-2017
+# [0.0.1] 2017-07-23
 - First version with only a small test for Logger

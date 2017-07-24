@@ -72,6 +72,6 @@ class App{
     *
     */
     public function run(){
-        $this->container->get("logger")->getLogger()->info("ERRR");
+        $this->container->get("logger")->info("ERRR");
     }
 }

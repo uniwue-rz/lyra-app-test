@@ -1,7 +1,7 @@
 {
-    "name": "rzuw/test-app",
+    "name": "rzuw/lyra-test-app",
     "description": "Simple Lyra Test App",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "authors": [{
         "name": "Pouyan Azari",
