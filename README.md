@@ -4,7 +4,7 @@ This is a test app written with the different **Lyra** classes. You can use it a
 # Installation
 Just clone this repository and then run the composer.
 
-```bash
+```lang=bash
 git clone https://github.com/uniwue-rz/lyra-app-test.git
 cd lyra-app-test
 composer install
@@ -13,7 +13,7 @@ composer install
 # Running
 to run it go to the application directory and run the following:
 
-```bash
+```lang=bash
 php bin/main.php
 ```
 
