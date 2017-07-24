@@ -1,0 +1,20 @@
+services:
+  log_stream_handler:
+    class: De\Uniwue\RZ\Lyra\Log\Handler\LogHandlerFactory
+    arguments:
+      - "%log_handler_stream.name%"
+      - "%log_handler_stream.level%"
+      - "%log_handler_stream.options%"
+
+  log_stderr_handler:
+    class: De\Uniwue\RZ\Lyra\Log\Handler\LogHandlerFactory
+    arguments:
+      - "%log_handler_stderr.name%"
+      - "%log_handler_stderr.level%"
+
+  logger:
+    class: De\Uniwue\RZ\Lyra\Log\Logger
+    arguments:
+      - "%name%"
+      - ["@log_stream_handler", "@log_stderr_handler"]
+      

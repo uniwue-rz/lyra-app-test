@@ -1,0 +1,10 @@
+parameters:
+  logging: true
+
+  log_handler_stream.name: Stream
+  log_handler_stream.level: DEBUG
+  log_handler_stream.options:
+      stream: /tmp/testapp.log
+
+  log_handler_stderr.name: StdErr
+  log_handler_stderr.level: DEBUG
